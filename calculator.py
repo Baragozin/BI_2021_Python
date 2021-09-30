@@ -12,6 +12,8 @@ def check_isdigit(n):
         except ValueError:
             f = 0
     return float(n)
+
+
 while True:
     number_1 = check_isdigit(input('Enter your first number: '))
     operation = input('''
